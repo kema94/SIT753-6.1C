@@ -6,7 +6,7 @@ pipeline{
         TESTING_ENVIRONMENT = 'testing'
         PRODUCTION_ENVIRONMENT = 'productionEnvironment'
     }
-
+    // test 
     stages{
         stage('Build'){
             steps{
